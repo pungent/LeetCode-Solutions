@@ -4,7 +4,7 @@ LeetCode
 TwoSum Solution
 """
 
-# Returns the indices of two numbers (from a list of numbers labeled nums) that add up to a given integer target. 
+# Returns the indices of two numbers (from a list of numbers labeled nums) that add up to an integer target. 
 def two_sum(nums, target):
     # Creates an inverted dictionary where the values are indices. This allows a solution of O(n) time.
     nums_indexed = {value: index for index, value in enumerate(nums)}
